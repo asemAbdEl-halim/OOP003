@@ -42,6 +42,18 @@
             #endregion
 
             #endregion
+
+            #region Part02
+
+            #region Quetion01
+
+            /*
+             * 1 - Update the Shipment Class
+             * **/
+
+            #endregion
+
+            #endregion
         }
     }
 }
