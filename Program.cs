@@ -53,6 +53,14 @@
 
             #endregion
 
+            #region Quetion02
+
+            /*
+             * 2 - Constructor Chaining
+             * **/
+
+            #endregion
+
             #endregion
         }
     }
