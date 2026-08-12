@@ -45,7 +45,7 @@
 
             #region Part02
 
-            #region Quetion01
+            #region Question01
 
             /*
              * 1 - Update the Shipment Class
@@ -53,10 +53,19 @@
 
             #endregion
 
-            #region Quetion02
+            #region Question02
 
             /*
              * 2 - Constructor Chaining
+             * **/
+
+            #endregion
+
+            #region Question03
+
+            /*
+             * 3 - Override EstimatedCost
+
              * **/
 
             #endregion
