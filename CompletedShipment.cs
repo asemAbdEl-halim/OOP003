@@ -20,7 +20,7 @@
 
 //        public override void PrintShipment()
 //        {
-//            Console.WriteLine("----- Completed Shipment -----");
+//            Console.WriteLine("===== Completed Shipment =====");
 //            base.PrintShipment();
 //        }
 //    }

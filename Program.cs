@@ -105,7 +105,7 @@
             #region Question08
 
             /*
-             * 8 -  
+             * 8 - Sealed Class
              * **/
 
             #endregion
