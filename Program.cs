@@ -110,6 +110,14 @@
 
             #endregion
 
+            #region Question09
+
+            /*
+             * 9 -  Sealed Method
+             * **/
+
+            #endregion
+
             #endregion
         }
     }

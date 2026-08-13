@@ -28,12 +28,13 @@
 //        {
 //        }
 
-//        public void GenerateCustomsReport()
+//        public sealed override void GenerateCustomsReport()
 //        {
-//            Console.WriteLine("Customs Report");
+//            Console.WriteLine("Priority Customs Report");
 //            Console.WriteLine("Tracking Code: " + TrackingCode);
 //            Console.WriteLine("Destination Country: " + DestinationCountry);
 //            Console.WriteLine("Customs Fee: " + CustomsFee + " EGP");
+//            Console.WriteLine("Priority Shipment: Yes");
 //        }
 //    }
 //}
