@@ -10,8 +10,8 @@
 //    {
 //        private Shipment[] shipments = new Shipment[20];
 
-//        public string CenterName { get; set; }
-
+//        // Aggregation
+//        public Driver Driver { get; set; }
 
 //        // Integer Indexer
 //        public Shipment this[int index]
@@ -31,7 +31,6 @@
 //            }
 //        }
 
-
 //        // String Indexer
 //        public Shipment this[string trackingCode]
 //        {
@@ -50,7 +49,6 @@
 //            }
 //        }
 
-
 //        // Add Shipment
 //        public bool AddShipment(Shipment shipment)
 //        {
@@ -65,7 +63,6 @@
 
 //            return false;
 //        }
-
 
 //        // Remove Shipment
 //        public bool RemoveShipment(string trackingCode)
@@ -83,15 +80,14 @@
 //            return false;
 //        }
 
-
 //        // Print All Shipments
 //        public void PrintAllShipments()
 //        {
-//            for (int i = 0; i < shipments.Length; i++)
+//            foreach (Shipment s in shipments)
 //            {
-//                if (shipments[i] != null)
+//                if (s != null)
 //                {
-//                    shipments[i].PrintShipment();
+//                    s.PrintShipment();
 //                    Console.WriteLine();
 //                }
 //            }
